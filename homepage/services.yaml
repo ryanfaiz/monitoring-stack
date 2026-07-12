@@ -51,8 +51,8 @@
         icon: 🤖
         description: AI Agent
         container: hermes
-        href: http://sanya.tail543eab.ts.net:9119/auth/callback
-        ping: http://sanya.tail543eab.ts.net:9119/auth/callback
+        href: http://sanya.tail543eab.ts.net:9119
+        ping: http://sanya.tail543eab.ts.net:9119
 
     - Qdrant:
         icon: https://qdrant.tech/images/favicon.ico
