@@ -1,0 +1,25 @@
+---
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    disk: /app/config
+    network: true
+    uptime: true
+    refresh: 30000  # Update every 30 seconds
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
+      hour12: false
+
+- weather:
+    latitude: -6.2088  # Replace with your location
+    longitude: 106.8456
+    units: metric
+    refresh: 1800000

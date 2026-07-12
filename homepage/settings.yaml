@@ -1,0 +1,28 @@
+---
+# Theme settings
+theme: dark
+color: slate
+
+# Header settings
+title: My Services
+headerStyle: clean
+
+# Layout
+layout:
+  - Home:
+      - style: row
+        columns: 4
+      - style: row
+        columns: 2
+      - style: row
+        columns: 2
+
+# Show quick launch on the left side
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  hideForGuests: true
+
+# Status check settings
+statusStyle: dot
+statusCheck: true

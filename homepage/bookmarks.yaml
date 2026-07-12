@@ -1,0 +1,11 @@
+---
+- Bookmarks:
+    - GitHub:
+        - icon: https://github.com/favicon.ico
+          href: https://github.com/ryanfaiz
+    - Docker Hub:
+        - icon: https://www.docker.com/favicon.ico
+          href: https://hub.docker.com
+    - Google:
+        - icon: https://www.google.com/favicon.ico
+          href: https://www.google.com

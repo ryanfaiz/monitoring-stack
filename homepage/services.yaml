@@ -1,0 +1,77 @@
+---
+# Group 1: Core Services
+- Home:
+    - Homepage:
+        icon: https://gethomepage.dev/img/icon.png
+        href: http://sanya:3001
+        description: Main dashboard
+        ping: http://sanya:3001
+        container: homepage
+
+    - Grafana:
+        icon: https://grafana.com/static/img/menu/grafana-icon.svg
+        href: http://sanya:3000
+        description: Analytics & Monitoring
+        ping: http://sanya:3000
+        container: grafana
+
+    - Prometheus:
+        icon: https://prometheus.io/assets/favicons/favicon.ico
+        href: http://sanya:9090
+        description: Metrics & Alerting
+        ping: http://sanya:9090
+        container: prometheus
+
+# Group 2: Search & Proxy
+- Search & Proxy:
+    - SearXNG:
+        icon: https://searxng.org/searxng-wordmark.svg
+        href: http://sanya:8888
+        description: Privacy-focused search engine
+        ping: http://sanya:8888
+        container: searxng-core
+
+    - Headroom:
+        icon: 🔒
+        href: http://sanya:8787
+        description: Web Proxy
+        ping: http://sanya:8787
+        container: headroom
+
+    - 9Router:
+        icon: 🚀
+        description: Routing service
+        container: 9router
+
+# Group 3: AI & Data Services
+- AI & Data:
+    - Hermes Agent:
+        icon: 🤖
+        description: AI Agent
+        container: hermes
+
+    - Qdrant:
+        icon: https://qdrant.tech/images/favicon.ico
+        href: http://sanya:6333
+        description: Vector Database
+        container: headroom-qdrant
+
+    - Neo4j:
+        icon: https://neo4j.com/favicon.ico
+        href: http://sanya:7474
+        description: Graph Database
+        container: headroom-neo4j
+
+    - Valkey:
+        icon: ⚡
+        description: Key-Value Store
+        container: searxng-valkey
+
+# Group 4: Logging
+- Logging:
+    - LogPorter:
+        icon: 📊
+        href: http://sanya:9333
+        description: Log aggregation
+        ping: http://sanya:9333
+        container: logporter
