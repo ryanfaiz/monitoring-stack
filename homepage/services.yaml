@@ -41,6 +41,8 @@
     - 9Router:
         icon: 🚀
         description: Routing service
+        href: http://sanya:20128
+        ping: http://sanya:20128
         container: 9router
 
 # Group 3: AI & Data Services
@@ -49,6 +51,8 @@
         icon: 🤖
         description: AI Agent
         container: hermes
+        href: http://sanya:9119
+        ping: http://sanya:9119
 
     - Qdrant:
         icon: https://qdrant.tech/images/favicon.ico
